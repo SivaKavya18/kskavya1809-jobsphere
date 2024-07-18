@@ -1,0 +1,116 @@
+/* body{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+} */
+
+.create-job-container {
+ 
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-job-form {
+  width: 100%;
+  max-width: 1000px;
+  padding: 50px;
+  background-color: #272727;
+  border-radius: 15px;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+}
+
+.createJob {
+  color:#636ff1;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-group {
+  
+  margin-top: 15px;;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #333;
+  color: #f8fafc;
+}
+.half{
+  margin-right: 10px;
+}
+.input-group.textarea {
+  resize: vertical;
+  height: 200px;
+}
+
+.full-width {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.form-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.createJobBtn {
+  padding: 10px 20px;
+  background-color: #636ff1;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.createJobBtn:hover {
+  background-color: #6f79ef;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+}
+.fromCont{
+  display: flex;
+  gap: 50px;
+}
+
+
+.left-column1{
+  flex:2;
+}
+.right-column1{
+  flex:2;
+}

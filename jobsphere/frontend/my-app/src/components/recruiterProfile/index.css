@@ -1,0 +1,98 @@
+.profile-container1 {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  /* background-color: black; Darker background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-subcont1{
+  padding: 20px;
+  max-width: 1200px;
+  margin: 30px 20px;
+  background-color: #272727; /* Darker background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #6366f1; /* Light text color for better contrast */
+}
+
+.head2{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #6366f1;
+  text-align: center; 
+
+}
+
+h2 {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #6366f1; /* Light text color for better contrast */
+}
+.recProfSpan{
+  font-size: 18px;
+  margin: 5px 0;
+  margin-left: 30px;
+  color: #b9b8b8;
+}
+
+.p {
+  font-size: 16px;
+  margin: 5px 0;
+  margin-left: 30px;
+  color: #ffffff; /* Light text color for better contrast */
+}
+
+.recProfUl {
+  list-style-type: disc;
+  margin: 10px 0;
+  margin-left: 30px;
+  padding-left: 20px;
+  color: #ffffff; /* Light text color for better contrast */
+}
+
+a {
+  color: #3498db; /* Light blue color for links */
+  text-decoration: none;
+}
+
+.recbtn{
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 10px;
+  width: 80px;
+  font-size: medium;
+  margin-top: 20px;
+  margin-left: -10px;
+  border-radius: 10px;
+  outline: none;
+
+}
+
+.recprofInput{
+  width: 220px;
+  background-color: #3f3f3f;
+  color: #ffffff;
+  margin-left: 20px;
+  padding: 6px;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: none;
+}
+/* 
+textarea{
+  width: 220px;
+  background-color: #3f3f3f;
+  color: #ffffff;
+  margin-left: 20px;
+  height: 50px;
+  padding: 6px;
+  border-radius: 10px;
+  margin-top: 5px;
+}      */

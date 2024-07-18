@@ -1,0 +1,83 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #272727;
+  color: #fff;
+}
+
+.navbar-title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.navbar-menu {
+  position: relative;
+  display: flex;
+}
+
+.navbar-user-icon {
+  cursor: pointer;
+}
+
+.head2-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 160px;
+  height: auto;
+}
+
+.navbar-dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #272727;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 160px;
+  border-radius: 10px;
+}
+
+.navbar-dropdown a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar-dropdown a:hover {
+  background-color: #c7c6c6;
+}
+
+.navbar-menu:hover .navbar-dropdown {
+  display: block;
+}
+
+.logo-link {
+  margin-right: 50px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.logout-button-lg {
+  margin-left: 50px;
+  margin-bottom: 5px;
+  background-color: #6366f1;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button-lg:hover {
+  background-color: #7274f0;
+}

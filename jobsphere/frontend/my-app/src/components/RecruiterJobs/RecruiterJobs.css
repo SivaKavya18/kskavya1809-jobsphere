@@ -1,0 +1,61 @@
+body, html {
+    
+    background-color: #121212;
+  }
+.recruiter-jobs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  .recruiter-jobs-container h2{
+    text-align: center;
+    color: #fff;
+  }
+  .job-listings{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:50px
+    
+  }
+  .job-listing {
+    list-style-type: none;
+    background-color: #272727;
+    color: #f8fafc;
+    width: calc(45% - 50px);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .job-listing h3 {
+    margin-top: 0;
+   
+  }
+  
+  .job-listing p {
+    margin: 8px 0;
+  }
+  
+  .job-listing .salary {
+    font-weight: bold;
+  }
+  
+  .job-listing .requirements {
+    font-style: italic;
+  }
+  .recruiterHead{
+    letter-spacing: 2px;
+    font-weight: 400;
+    
+  }
+
+  
+
+  .rjobTitle{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 2px solid rgb(242, 241, 241);
+  }

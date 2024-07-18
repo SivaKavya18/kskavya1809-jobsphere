@@ -1,0 +1,201 @@
+/* Reset and basic styles */
+
+.body1 {
+    
+  min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+  }
+  
+  /* Container for job details */
+  .job-details-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1000px;
+    padding: 30px;
+    background-color: #272727;
+    border-radius: 15px;
+    color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Centering header text */
+  .jobHead {
+    
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Flexbox for job details */
+  .job-details {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Left column for details */
+  .left-column {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Right column for description */
+  .right-column {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  /* Input and textarea styles */
+  .editinput {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #f8fafc;
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+  .edittextarea{
+   
+    border-radius: 5px;
+    border: none;
+    color: #f8fafc;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* Button styles */
+  .job-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #636ff1;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #6f79ef;
+  }
+  
+  .right-column h4{
+    text-align: center;
+  }
+
+  .left-column input,.left-column textarea{
+    background-color: #333;
+  }
+  .right-column textarea{
+    background-color: #333;
+    height: 100%;
+    justify-content: center;
+  }
+  .right-column{
+    margin-left: 30px;
+  }
+ .listItems1 li{
+  list-style: none;
+  list-style-type: none;
+ }
+ .listItems1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between cards as needed */
+  padding: 0;
+  list-style: none;
+  
+}
+
+.card1 {
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(220, 214, 214, 0.1);
+  padding: 20px;
+  width: calc(33.333% - 20px); /* Adjust width to fit three cards per row with gap */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+
+.card1 p {
+  margin: 0 0 10px;
+}
+
+.card1 a {
+  color: #a6ccf5;
+  text-decoration: none;
+}
+
+.card1 a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .card1 {
+    width: calc(50% - 20px); /* Adjust width to fit two cards per row with gap on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .card1 {
+    width: 100%; /* Full width on very small screens */
+  }
+}
+.appBtn{
+  padding: 10px 12px;
+  margin-right: 15px;
+ }
+ 
+ ul{
+  display: inline;
+ }
+
+ .desc{
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 0px;
+  border: 1px solid white;
+  padding: 5px;
+  border-left: transparent;
+  border-right: transparent;
+ }
+
+ .acceptBtn1{
+  background-color: #36c24b;
+ }
+ .acceptBtn1:hover{
+  background-color: #35ba49;
+ }
+ .rejectBtn1{
+  background-color: rgb(245, 76, 76);
+ }
+ .rejectBtn1:hover{
+  background-color: rgb(246, 63, 63);
+ }
+ .shortlistBtn1{
+  background-color: rgb(1, 164, 164);
+ }
+ .shortlistBtn1:hover{
+  background-color: rgb(3, 147, 147);
+ }
+
+ .job-details-container h2{
+  font-weight: 500;
+ }

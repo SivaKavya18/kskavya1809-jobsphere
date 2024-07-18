@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2d3748;
+  color: #fff;
+}
+
+.navbar-title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.navbar-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-user-icon {
+  cursor: pointer;
+}
+
+.logo-img{
+  width: 160px;
+  height: auto;
+}
+.navbar-dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #272727;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 160px;
+  border-radius: 10px;
+}
+
+.navbar-dropdown a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar-dropdown a:hover {
+  background-color: #c7c6c6;
+}
+
+.navbar-menu:hover .navbar-dropdown {
+  display: block;
+}
+
+.logout-button-lg{
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+.logo-link{
+  margin-right: 50px;
+  color: #fff;
+}

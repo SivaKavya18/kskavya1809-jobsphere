@@ -1,0 +1,247 @@
+
+
+/* index.css */
+
+/*.applications-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .applications-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #343a40;
+    text-align: center;
+  }
+  
+  .applications-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .applications-container li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .applications-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .applications-container li h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #007bff;
+  }
+  
+  .applications-container li p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .applications-container li p.company {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 1.2em;
+    color: #777;
+    margin-top: 20px;
+  } */
+
+  /* Reset and basic styles */
+
+.body {
+    
+    min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #121212;
+    }
+    
+
+    .applications-container1 {
+      /* width: 100%;
+      max-width: 1200px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; */
+      margin: 20px;
+    }
+    /* Container for job details */
+    .job-details-container {
+      width: 100%;
+      max-width: 800px;
+      padding: 30px;
+      background-color: #272727;
+      border-radius: 15px;
+      color: #f8fafc;
+      display: flex;
+      margin-bottom: 30px;
+      flex-direction: column;
+    }
+    
+    /* Centering header text */
+    .jobHead {
+      
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    /* Flexbox for job details */
+    .job-details {
+      display: flex;
+      gap: 20px;
+    }
+    
+    /* Left column for details */
+    .left-column {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    /* Right column for description */
+    .right-column {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      background-color: #333;
+      padding: 20px;
+      border-radius: 15px;
+    }
+    
+    /* Input and textarea styles */
+    /* input {
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      color: #f8fafc;
+      width: 100%;
+      margin-bottom: 10px;
+      
+    } */
+    textarea{
+      /* padding: 8px; */
+      border-radius: 5px;
+      border: none;
+      color: #f8fafc;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    /* Button styles */
+    .job-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: #636ff1;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    button:hover {
+      background-color: #6f79ef;
+    }
+
+    
+    .right-column h4{
+      text-align: center;
+    }
+
+  .left-column ul{
+    margin-left: 0px;
+  }
+  
+    .right-column textarea{
+      background-color: #333;
+      height: 100%;
+      justify-content: center;
+    }
+    .right-column{
+      margin-left: 30px;
+    }
+   .listItems1 li{
+    list-style: none;
+    list-style-type: none;
+   }
+   .listItems1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between cards as needed */
+    padding: 0;
+    list-style: none;
+    
+  }
+  
+  .card {
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(220, 214, 214, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 20px); /* Adjust width to fit three cards per row with gap */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  
+  .card p {
+    margin: 0 0 10px;
+  }
+  
+  .card a {
+    color: #a6ccf5;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px); /* Adjust width to fit two cards per row with gap on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 100%; /* Full width on very small screens */
+    }
+  }
+  
+   .desc{
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 0px;
+    border: 1px solid white;
+    padding: 5px;
+    border-left: transparent;
+    border-right: transparent;
+   }
+  
+  
+  
+   .job-details-container h2{
+    font-weight: 500;
+   }
